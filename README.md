@@ -35,6 +35,12 @@ docker pull your_dockerhub_username/satnerf-image:latest
 
 ## 2. Docker 이미지 실행하기
 
+*만약 Git Bash를 사용중이라면 경로 혼동을 방지하기 위해 다음 코드를 실행합니다:
+
+```bash
+export MSYS_NO_PATHCONV=1
+```
+
 다음 명령어로 Docker 이미지를 실행합니다:
 
 ```bash
