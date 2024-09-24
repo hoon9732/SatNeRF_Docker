@@ -1,6 +1,18 @@
 # SatNeRF Docker Image Tutorial
 
-This tutorial provides step-by-step instructions on how to use the SatNeRF Docker image for satellite neural radiance field tasks, including testing, training, and additional experiments.
+SatNeRF를 Docker 상에서 용이하게 다루기 위하여 정리하였습니다. 원본 SatNeRF 출처는 다음과 같습니다.
+
+## Original Source
+
+The Dockerfile and scripts used in this project are based on the [SatNeRF repository](https://github.com/centreborelli/satnerf.git) developed by Centre Borelli, MINES ParisTech, PSL University.
+
+You can find the original source code and further details about the SatNeRF project in the official repository: [https://github.com/centreborelli/satnerf.git](https://github.com/centreborelli/satnerf.git).
+
+## Copyright Notice
+
+The SatNeRF code and related resources are licensed under their respective terms as outlined in the [SatNeRF GitHub repository](https://github.com/centreborelli/satnerf.git). Please ensure to follow the licensing guidelines provided by the authors.
+
+This project does not claim ownership over the original SatNeRF code, and it is distributed under the terms provided by the original authors. For more details, please refer to the original [LICENSE](https://github.com/centreborelli/satnerf/blob/main/LICENSE) file.
 
 ## Table of Contents
 
