@@ -16,8 +16,7 @@ This tutorial provides step-by-step instructions on how to use the SatNeRF Docke
    - [7.3 Interpolate Over Different Sun Directions](#73-interpolate-over-different-sun-directions)
    - [7.4 Comparison to Classic Satellite MVS](#74-comparison-to-classic-satellite-mvs)
 8. [Notes](#8-notes)
-9. [Conclusion](#9-conclusion)
-
+   
 ---
 
 ## 1. Pull the Docker Image
@@ -176,17 +175,8 @@ python3 eval_s2p.py JAX_068 \
 
 ## 8. Notes
 
-- **Prerequisites:** Ensure you have downloaded the necessary datasets and pretrained models and placed them in the correct directories.
-- **Directory Structure:** Adjust the paths in the commands if your directory structure differs.
-- **GPU Support:** The commands assume you have an NVIDIA GPU and the necessary drivers installed.
-- **Inside Docker:** All commands from step 3 onward should be run inside the Docker container.
-
+- **Runtime:** Docker에 실행시 cpu 코어를 4개 이상 할당해주는 것이 좋다.
 ---
 
-## 9. Conclusion
-
-This tutorial provides the necessary commands and steps to use the SatNeRF Docker image for various tasks, including testing, training, and additional experiments. By following these steps, you should be able to successfully run the SatNeRF model and conduct experiments as needed.
-
----
 
 *Feel free to customize this README according to your specific needs or add additional details as required.*
